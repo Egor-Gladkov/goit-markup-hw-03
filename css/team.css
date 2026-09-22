@@ -1,22 +1,48 @@
 .team {
     background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 141px;
+    padding-right: 141px;
 }
 
 .team-list {
     list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
-.team .section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+.team.section-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+
+.team-list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
 }
 
 .team-card {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+        width: 264px;
+        height: 380px;
 }
 
 .team-card .card-title {
@@ -26,6 +52,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    
 }
 
 .team-card .card-text {
@@ -37,3 +64,11 @@
     color: #434455;
 }
 
+.team-text-content {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.team-text-content h3 {
+    margin: 0 0 8px;
+}
